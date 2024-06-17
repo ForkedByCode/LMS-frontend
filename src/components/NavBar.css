@@ -1,0 +1,13 @@
+.brand-logo {
+    width: 150px;
+    height: 75px;
+    /* overflow: hidden; Ensure the container crops the image */
+}
+  
+.brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; /* Center the image within the container */
+}
+  
