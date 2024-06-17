@@ -5,9 +5,8 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="flex justify-around items-center px-10 fixed top-0 left-0 right-0 border-b border-black">
-      <section className="brand-logo py-2">
+      <section className="brand-logo py-1">
         <img src="src/assets/logo.png" alt="" className="" />
-        {/* Brand Logo */}
       </section>
       <section className="w-9/12">
         <ul className="flex justify-center p-2">
