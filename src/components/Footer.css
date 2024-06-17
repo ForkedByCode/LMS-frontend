@@ -1,0 +1,23 @@
+@property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  #counter {
+    animation: counter 10s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 system-ui;
+  }
+  #counter::after {
+    content: var(--num);
+  }
+  
+  @keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 2500;
+    }
+  }

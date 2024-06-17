@@ -1,5 +1,6 @@
 import React from "react";
 import LearnerCard from "./LearnerCard";
+import Footer from "./Footer";
 
 function Testimonials() {
   return (
@@ -20,6 +21,9 @@ function Testimonials() {
             <LearnerCard />
             <LearnerCard />
           </div>
+        </div>
+        <div className="w-full absolute bottom-0">
+          <Footer />
         </div>
       </div>
     </>

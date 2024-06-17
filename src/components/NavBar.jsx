@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <div className="flex justify-around items-center px-10 fixed top-0 left-0 right-0 z-10 border-b border-black">
+    <div className="flex bg-zinc-100 justify-around items-center px-10 fixed top-0 left-0 right-0 z-10 border-b border-black">
       <section className="brand-logo py-1">
         <img src="src/assets/logo.png" alt="" className="" />
       </section>
