@@ -1,12 +1,14 @@
-import NavBar from "./components/NavBar";
 import InfoCard from "./components/InfoCard";
-// import "/src/App.css";
+import LearnerCard from "./components/LearnerCard";
+import NavBar from "./components/NavBar";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
     <>
       <NavBar />
       <InfoCard />
+      <Testimonials />
     </>
   );
 }

@@ -1,0 +1,16 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    min-width: 100%;
+  box-sizing: border-box;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
