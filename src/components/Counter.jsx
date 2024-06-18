@@ -20,7 +20,7 @@ function Counter({ upto, speed }) {
   }, [limit]);
 
   return (
-    <p className="text-white font-semibold text-3xl m-1.5 ms-10">
+    <p className="text-white font-semibold text-3xl m-1.5 ms-6">
       {count.toPrecision(2)}K+
     </p>
   );
