@@ -5,13 +5,7 @@ import Footer from "./Footer";
 function Testimonials() {
   return (
     <>
-      <div
-        className="container h-screen relative"
-        style={{
-          backgroundImage: "url('/Background.png')",
-          backgroundSize: "cover",
-        }}
-      >
+      <div className="container h-screen relative">
         <div className="absolute m-auto w-full h-1/2 top-32">
           <h1 className="w-full h-1/6 text-center text-5xl font-bold text-blue-900">
             Testimonials

@@ -3,13 +3,7 @@ import React from "react";
 function InfoCard() {
   return (
     <>
-      <div
-        className="container h-screen relative"
-        style={{
-          backgroundImage: "url('/Background.png')",
-          backgroundSize: "cover",
-        }}
-      >
+      <div className="container h-screen relative">
         <div className="flex flex-col items-center bg-gradient-to-r from-white rounded-3xl absolute inset-0 m-auto w-4/5 h-4/6 top-12">
           <div className="flex flex-col justify-start p-4 pb-0 leading-normal w-full h-full">
             <div className="flex justify-between items-center mx-2 border-b-2 border-black h-1/4">
