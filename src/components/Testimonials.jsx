@@ -8,7 +8,7 @@ function Testimonials() {
       <div
         className="container h-screen relative"
         style={{
-          backgroundImage: "url('./src/assets/Background.png')",
+          backgroundImage: "url('/Background.png')",
           backgroundSize: "cover",
         }}
       >

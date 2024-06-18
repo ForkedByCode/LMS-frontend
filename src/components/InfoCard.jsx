@@ -6,7 +6,7 @@ function InfoCard() {
       <div
         className="container h-screen relative"
         style={{
-          backgroundImage: "url('./src/assets/Background.png')",
+          backgroundImage: "url('/Background.png')",
           backgroundSize: "cover",
         }}
       >
@@ -41,7 +41,7 @@ function InfoCard() {
             <div className="flex justify-start items-center mx-2 h-3/4 relative">
               <section className="w-1/2 h-full p-5 absolute top-0 left-0">
                 <img
-                  src="/src/assets/profile.png"
+                  src="/profile.png"
                   alt=""
                   className="w-full h-full object-contain"
                 />

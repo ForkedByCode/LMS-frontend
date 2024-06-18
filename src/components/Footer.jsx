@@ -14,7 +14,7 @@ function Footer() {
               <Counter upto={2.5} speed={100} />
             </section>
             <section className="w-11 h-11">
-              <img src="src/assets/instagram_logo.png" alt="" className="" />
+              <img src="/instagram_logo.png" alt="" className="" />
             </section>
           </div>
           <div className="border border-white rounded-full w-48 h-1/3 m-5 flex justify-between items-center">
@@ -22,7 +22,7 @@ function Footer() {
               <Counter upto={50} speed={1} />
             </section>
             <section className="w-11 h-11">
-              <img src="src/assets/telegram.png" alt="" className="" />
+              <img src="/telegram.png" alt="" className="" />
             </section>
           </div>
           <div className="border border-white rounded-full w-48 h-1/3 m-5 flex justify-between items-center">
@@ -30,7 +30,7 @@ function Footer() {
               <Counter upto={29} speed={3} />
             </section>
             <section className="w-11 h-11">
-              <img src="src/assets/linkedIn.png" alt="" className="" />
+              <img src="/linkedIn.png" alt="" className="" />
             </section>
           </div>
         </div>
